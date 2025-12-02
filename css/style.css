@@ -210,6 +210,10 @@ img{
         margin-bottom:6rem;
     }
 
+    .cover-news{
+        background-image: url(../images/cover-news-l.webp);
+    }
+
 }
 /*NEWS*/
 
