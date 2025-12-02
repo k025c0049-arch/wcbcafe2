@@ -172,6 +172,8 @@ img{
 
 /*デスクトップ版*/
 @media (min-width:800px){
+
+
     /*見出し*/
     .page-title{
         font-size: 5rem;
@@ -201,14 +203,14 @@ img{
         font-size:2rem;
     }
 
-    /*ヘッダーカバー*/
-    .sub-cover{
+    /*ヘッダー画像*/
+
+    .subcover{
         height:400px;
         margin-bottom:6rem;
     }
+
 }
-
-
 /*NEWS*/
 
 .cover-news{
