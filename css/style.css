@@ -88,7 +88,7 @@ img{
 }
 
 .main-nav a {
-    color:#432
+    color:#432;
 }
 .main-nav a:hover {
     color:#0bd;
@@ -172,6 +172,7 @@ img{
 
 /*デスクトップ版*/
 @media (min-width:800px){
+
 
 
     /*見出し*/
