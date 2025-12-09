@@ -170,75 +170,6 @@ img{
     padding:1rem 0;
 }
 
-/*デスクトップ版*/
-@media (min-width:800px){
-
-
-
-    /*見出し*/
-    .page-title{
-        font-size: 5rem;
-    }
-
-    .heading-large{
-        font-size: 4rem;
-    }
-
-    .post-title{
-        font-size:2rem;
-    }
-
-
-    /*ヘッダー*/
-
-    .page-header{
-        display:flex;
-        justify-content: space-between;
-        padding-top: 1.5rem;
-    }
-
-
-
-
-    .main-nav{
-        font-size:2rem;
-    }
-
-    /*ヘッダー画像*/
-
-    .subcover{
-        height:400px;
-        margin-bottom:6rem;
-    }
-
-    .cover-news{
-        background-image: url(../images/cover-news-l.webp);
-    }
-
-    .news-contents{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .post{
-        width: 60%;
-        order:2;
-    }
-    .sidebar{
-        width:22%;
-        order:3;
-    }
-
-    .ad{
-        order:1;
-    }
-
-    .sidebar .heading-medium{
-        line-height:1;
-        margin-bottom:1rem;
-    }
-
-}
 /*NEWS*/
 
 .cover-news{
@@ -310,4 +241,80 @@ img{
 
 .side-menu a:hover{
     color:#0bd;
+}
+
+/*menu*/
+.cover-menu{
+    background-image:url(../images/cover-menu-s.webp);
+}
+
+
+/*デスクトップ版*/
+@media (min-width:800px){
+
+
+
+    /*見出し*/
+    .page-title{
+        font-size: 5rem;
+    }
+
+    .heading-large{
+        font-size: 4rem;
+    }
+
+    .post-title{
+        font-size:2rem;
+    }
+
+
+    /*ヘッダー*/
+
+    .page-header{
+        display:flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+
+
+
+
+    .main-nav{
+        font-size:2rem;
+    }
+
+    /*ヘッダー画像*/
+
+    .subcover{
+        height:400px;
+        margin-bottom:6rem;
+    }
+
+    .cover-news{
+        background-image: url(../images/cover-news-l.webp);
+    }
+
+    .news-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .post{
+        width: 60%;
+        order:2;
+    }
+    .sidebar{
+        width:22%;
+        order:3;
+    }
+
+    .ad{
+        order:1;
+    }
+
+    .sidebar .heading-medium{
+        line-height:1;
+        margin-bottom:1rem;
+    }
+
 }
