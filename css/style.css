@@ -13,7 +13,7 @@ a{
 }
 
 img{
-    max-width: 100;
+    max-width: 100%;
 }
 /*レイアウト*/
 
@@ -286,6 +286,7 @@ img{
     }
 
 
+
     /*ヘッダー*/
 
     .page-header{
@@ -303,7 +304,7 @@ img{
 
     /*ヘッダー画像*/
 
-    .subcover{
+    .sub-cover{
         height:400px;
         margin-bottom:6rem;
     }
@@ -347,7 +348,7 @@ img{
         grid-template-columns: repeat(3,1fr);
     }
 
-    .item .img{
+    .item img{
         margin-bottom: .5rem;
     }
 
